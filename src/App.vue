@@ -1,12 +1,42 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view />
+  <div class="global_container">
+    <side-bare />
+    <div>
+      <nav>
+        <router-link to="/">about</router-link> |
+        <router-link to="/resume">resume</router-link> |
+        <router-link to="/portfolio">portfolio</router-link> |
+        <router-link to="/blog">blog</router-link> |
+        <router-link to="/contact">Contact</router-link>
+      </nav>
+      <router-view />
+    </div>
+  </div>
 </template>
-
+<script>
+import sideBare from "./components/sideBare.vue";
+export default {
+  components: { sideBare },
+};
+</script>
 <style lang="scss">
+//global style
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+.global_container {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  max-width: 1200px;
+  margin: auto;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -16,11 +46,19 @@
 }
 
 nav {
-  padding: 30px;
-
+  padding: 21px 48px 21px 46px;
+  margin: 0 0 0 335px;
+  background-color: #3f3f40;
+  width: 535px;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  border-radius: 0 0 0 20px;
   a {
     font-weight: bold;
-    color: #2c3e50;
+    color: #c9d5e0;
 
     &.router-link-exact-active {
       color: #42b983;
