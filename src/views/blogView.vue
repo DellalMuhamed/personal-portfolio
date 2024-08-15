@@ -12,7 +12,6 @@ export default {
 <style lang="scss">
 .blog {
   width: 863px;
-  background-color: aquamarine;
   margin-top: 30px;
   display: flex;
   justify-content: space-evenly;

@@ -72,14 +72,14 @@ export default {
 .blog_template {
   width: 404px;
   height: 402px;
-  background-color: rgb(127, 150, 255);
   border-radius: 16px;
+  background-color: #2c3e50;
   .img_cont {
     width: 404px;
     height: 230px;
-    background-color: blanchedalmond;
     border-radius: 16px;
     margin-bottom: 26px;
+    border: 1px solid gray;
   }
   .blog_info {
     padding: 0 25px 24px;

@@ -2,7 +2,7 @@
   <div class="global_container">
     <side-bare />
     <div>
-      <nav>
+      <nav class="nav">
         <router-link to="/">about</router-link> |
         <router-link to="/resume">resume</router-link> |
         <router-link to="/portfolio">portfolio</router-link> |
@@ -35,6 +35,7 @@ ul {
   gap: 25px;
   max-width: 1200px;
   margin: auto;
+  background-color: #313131;
 }
 
 #app {
@@ -45,10 +46,10 @@ ul {
   color: #2c3e50;
 }
 
-nav {
+.nav {
   padding: 21px 48px 21px 46px;
   margin: 0 0 0 335px;
-  background-color: #3f3f40;
+  background-color: #2c3e50;
   width: 535px;
   height: 65px;
   display: flex;
