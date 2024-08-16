@@ -28,7 +28,6 @@ export default {
 <style lang="scss">
 .form_cont {
   margin: 30px 31px 57px;
-  background-color: rgb(109, 133, 179);
   padding-bottom: 30px;
   figure {
     iframe {
@@ -52,9 +51,9 @@ export default {
       input {
         width: 404px;
         height: 55px;
-        border: 1px #383838;
+        border: 1px solid #808080;
         border-radius: 14px;
-        background-color: #8a8888;
+        background-color: transparent;
         padding: 15px 20px;
       }
     }
@@ -62,9 +61,9 @@ export default {
   textarea {
     width: 838px;
     height: 120px;
+    border: 1px solid #808080;
     border-radius: 14px;
-    border: 1px #383838;
-    background-color: #8a8888;
+    background-color: transparent;
     margin-bottom: 30px;
     padding: 15px 20px;
   }
@@ -78,6 +77,9 @@ export default {
     margin-left: auto;
     border: none;
     border-radius: 18px;
+    box-shadow: 0 0 0 1px #808080;
+    background-color: transparent;
+    cursor: pointer;
     span {
       flex-flow: "Poppins";
       font-size: 16px;

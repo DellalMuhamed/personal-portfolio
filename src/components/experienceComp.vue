@@ -39,7 +39,7 @@
 </template>
 <style lang="scss">
 .education {
-  background-color: cadetblue;
+  background-color: #313131;
   .title_wraper {
     display: flex;
     justify-content: start;
@@ -50,7 +50,7 @@
       width: 48px;
       height: 48px;
       border-radius: 12px;
-      background-color: #aec995;
+      background-color: #2c3e50;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -73,7 +73,7 @@
         left: 23px;
         width: 1px;
         height: 100%;
-        background-color: red;
+        background-color: gray;
       }
       &::after {
         content: "";

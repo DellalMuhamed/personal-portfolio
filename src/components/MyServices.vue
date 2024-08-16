@@ -64,7 +64,7 @@ h1 {
     align-items: start;
     width: 404px;
     height: 140px;
-    background-color: aqua;
+    background-color: #2c3e50;
     padding: 30px 46px 30px 30px;
     border-radius: 18px;
     img {

@@ -63,7 +63,7 @@ h2 {
     min-width: 406px;
     height: 138px;
     position: relative;
-    background-color: cadetblue;
+    background-color: #2c3e50;
     padding: 25px 29px;
     border-radius: 14px;
     z-index: 2;

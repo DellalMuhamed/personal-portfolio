@@ -74,7 +74,7 @@ hr {
     width: 150px;
     height: 147px;
     border-radius: 30px;
-    background-image: linear-gradient(to right, #3f3f40, #303030);
+    background-image: linear-gradient(to right bottom, #3f3f40, #ccc);
     margin: auto;
     display: flex;
     justify-content: center;

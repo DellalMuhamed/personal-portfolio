@@ -34,6 +34,7 @@ ul {
   justify-content: center;
   gap: 25px;
   max-width: 1200px;
+  height: 1378px;
   margin: auto;
   background-color: #313131;
 }
@@ -60,7 +61,7 @@ ul {
   a {
     font-weight: bold;
     color: #c9d5e0;
-
+    text-decoration: none;
     &.router-link-exact-active {
       color: #42b983;
     }

@@ -31,10 +31,11 @@
     font-family: "Poppins";
     font-size: 24px;
     margin-bottom: 44px;
+    color: #fafafa;
   }
   .skills_cont {
     padding: 25px 30px;
-    background-color: blueviolet;
+    background-color: #2c3e50;
     border-radius: 18px;
     ul {
       li {

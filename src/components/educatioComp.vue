@@ -39,7 +39,7 @@
 </template>
 <style lang="scss">
 .education {
-  background-color: cadetblue;
+  background-color: #313131;
   margin-bottom: 36px;
   .title_wraper {
     display: flex;
@@ -74,7 +74,7 @@
         left: 23px;
         width: 1px;
         height: 100%;
-        background-color: red;
+        background-color: gray;
       }
       &::after {
         content: "";
