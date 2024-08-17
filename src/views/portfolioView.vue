@@ -6,13 +6,82 @@
       <button>Applications</button>
       <button>Web development</button>
     </nav>
-    <project-content />
+    <div class="projects_cont">
+      <project-content
+        v-for="(project, key) in projectsData"
+        :key="key"
+        :project="project.project_title"
+      />
+    </div>
   </div>
 </template>
 <script>
 import projectContent from "@/components/projectContent.vue";
+import { ref } from "vue";
 export default {
   components: { projectContent },
+  setup() {
+    const projectsData = ref({
+      project_1: {
+        link: "",
+        project_img: "",
+        project_title: "Finance",
+        project_category: "Web development",
+      },
+      project_2: {
+        link: "",
+        project_img: "",
+        project_title: "Orizon",
+        project_category: "Web development",
+      },
+      project_3: {
+        link: "",
+        project_img: "",
+        project_title: "Fundo",
+        project_category: "Web design",
+      },
+      project_4: {
+        link: "",
+        project_img: "",
+        project_title: "Brawlhalla",
+        project_category: "Applications",
+      },
+      project_5: {
+        link: "",
+        project_img: "",
+        project_title: "DSM",
+        project_category: "Web design",
+      },
+      project_6: {
+        link: "",
+        project_img: "",
+        project_title: "MetaSpark",
+        project_category: "Web design",
+      },
+      project_7: {
+        link: "",
+        project_img: "",
+        project_title: "Summary",
+        project_category: "Web development",
+      },
+      project_8: {
+        link: "",
+        project_img: "",
+        project_title: "Task Manager",
+        project_category: "Applications",
+      },
+      project_9: {
+        link: "",
+        project_img: "",
+        project_title: "Arrival",
+        project_category: "Web development",
+      },
+    });
+
+    return {
+      projectsData,
+    };
+  },
 };
 </script>
 <style lang="scss">
@@ -39,6 +108,13 @@ export default {
         color: gray;
       }
     }
+  }
+  .projects_cont {
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
   }
 }
 </style>

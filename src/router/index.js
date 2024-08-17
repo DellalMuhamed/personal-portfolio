@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from "vue-router";
-import aboutView from "../views/aboutView.vue";
+import aboutView from "@/views/aboutView.vue";
 import resumeView from "@/views/resumeView.vue";
 import portfolioView from "@/views/portfolioView.vue";
 import blogView from "@/views/blogView.vue";
